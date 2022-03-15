@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  background-color: #f7f7f7f7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-desktop {
+  position: relative;
+  background-image: url(./assets/images/image-hero-desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav {
+  color: #ffffff;
+  position: fixed;
+  right: 0;
+}
+ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 45px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  justify-content: center;
+  overflow: auto;
+  min-height: 250px;
+  border: 1px solid hsl(0, 0%, 100%);
+  background: hsl(0, 0%, 100%);
+  padding: 50px;
+  border-radius: 10px;
+  top: 12rem;
+  position: absolute;
+}
+
+/* Mastercraft */
+ .header{
+   text-align: center;
+   font-weight: bold;
+ }
+
+ .p-text{
+   font-size: 14px;
+   color: hsl(0, 0%, 48%);
+   text-align: center;
+ }
+
+ .btn{
+   border-radius: 25px;
+   margin-top: 2rem;
+ }
+
+ 
+.img-bookmark{
+  height: auto;
+  width: 35px;
+}
+
+/* statistics */
+ .content-statistics{
+  justify-content: center;
+  overflow: auto;
+  min-height: 200px;
+  border: 1px solid hsl(0, 0%, 100%);
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  position: relative;
+  top: 10rem;
+ }
+
+ .statistics-header{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+
+ }
+
+ .stats-header{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3rem;
+
+}
+
+.stats-header1{
+  text-align: left;
+  font-weight: bold;
+  padding-top: 3rem;
+}
+
+.p-text1{
+  font-size: 14px;
+  color: hsl(0, 0%, 48%);
+  text-align: left;
+}
+
+/* About */
+.content-about{
+  justify-content: center;
+  overflow: auto;
+  min-height: 150px;
+  border: 1px solid hsl(0, 0%, 100%);
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  position: relative;
+  top: 12rem;
+
+}
+
+.about-header{
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.about-text{
+  text-align: left;
+  font-size: 14px;
+  color: hsl(0, 0%, 48%);
+  line-height: 2rem;
+}
+
+/* bamboo stand */
+.bamboo-stand{
+  border: 1px solid hsl(0, 0%, 48%) ;
+  border-radius: 10px;
+  margin-top: 25px;
+  min-height: 200px;
+  padding: 1rem;
+}
+
+.bamboo-header{
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 40px;
+
+}
+
+.bamboo-text{
+  font-size: 16px;
+  margin-top: 40px;
+  text-align: right;
+  color: hsl(176, 50%, 47%);
+
 }
