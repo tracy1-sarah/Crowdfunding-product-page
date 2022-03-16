@@ -18,6 +18,8 @@ export default function About() {
             extra desk space below your computer to allow notepads, pens, and
             USB sticks to be stored under the stand.
           </p>
+
+          {/* Bamboo Edition */}
           <div className="bamboo-stand">
             <div className="row">
               <div className="col-6">
@@ -30,11 +32,80 @@ export default function About() {
               </div>
             </div>
             <div>
-                <p className="about-text">
-                    You get an ergonomic stand made of natural bamboo.
-                    You've helped us launch our promotional campaign, and you'lll be added to a special
-                    Backer member list.
-                </p>
+              <p className="about-text">
+                You get an ergonomic stand made of natural bamboo. You've helped
+                us launch our promotional campaign, and you'lll be added to a
+                special Backer member list.
+              </p>
+            </div>
+            <div className="row">
+              <div className="col-6">
+                <h2 className="bamboo-header">101</h2>
+              </div>
+              <div className="col-6">
+                <button type="button" className="btn btn-success">
+                  Select Reward
+                </button>
+                {/* Black Edition Stand */}
+              </div>
+            </div>
+          </div>
+          <div className="bamboo-stand">
+            <div className="row">
+              <div className="col-6">
+                <div>
+                  <h4 className="bamboo-header">Bamboo Stand</h4>
+                </div>
+              </div>
+              <div className="col-6">
+                <p className="bamboo-text">Pledge $75 or more</p>
+              </div>
+            </div>
+            <div>
+              <p className="about-text">
+                You get an ergonomic stand made of natural bamboo. You'lllbe added to our Backer 
+                member list. Shipping is included.
+              </p>
+            </div>
+            <div className="row">
+              <div className="col-6">
+                <h2 className="bamboo-header">64</h2>
+              </div>
+              <div className="col-6">
+                <button type="button" className="btn btn-success">
+                  Select Reward
+                </button>
+              </div>
+            </div>
+          </div>
+          {/* Mahogany special edition */}
+          <div className="bamboo-stand">
+            <div className="row">
+              <div className="col-6">
+                <div>
+                  <h4 className="bamboo-header">Bamboo Stand</h4>
+                </div>
+              </div>
+              <div className="col-6">
+                <p className="bamboo-text">Pledge $200 or more</p>
+              </div>
+            </div>
+            <div>
+              <p className="about-text">
+                You get two Special Edition Mahogany stands, a Backer T shirt, and a 
+                personal thank you. You'll be added to our Backer member list. Shipping is included.
+
+              </p>
+            </div>
+            <div className="row">
+              <div className="col-6">
+                <h2 className="bamboo-header">0</h2>
+              </div>
+              <div className="col-6">
+                <button type="button" className="btn btn-secondary">
+                  Out of stock
+                </button>
+              </div>
             </div>
           </div>
         </div>

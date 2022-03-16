@@ -125,7 +125,7 @@ ul li {
 .about-header{
   text-align: left;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 40px;
 }
 
@@ -148,7 +148,7 @@ ul li {
 .bamboo-header{
   text-align: left;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 40px;
 
 }
@@ -160,3 +160,6 @@ ul li {
   color: hsl(176, 50%, 47%);
 
 }
+
+/* Black Edition */
+
