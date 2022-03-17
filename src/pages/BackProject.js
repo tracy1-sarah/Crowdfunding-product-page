@@ -8,8 +8,9 @@ export default function BackProject() {
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
+      modal-dialog-scrollable
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content">
           <div class="modal-header">
             <h5
@@ -27,19 +28,18 @@ export default function BackProject() {
             ></button>
           </div>
           <div class="modal-body" style={{ color: "black", textAlign: "left" }}>
-            hjhgjh
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">
-              Save changes
-            </button>
+            <div className="row">
+              <div className="container">
+                <div className="Backproject col-md-12 container">
+                <p className="about-text">Want to support us in bringing MasterCraft Monitor Riser out in the world?</p>
+
+                    <div className="bamboo-stand">
+                        
+                        
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

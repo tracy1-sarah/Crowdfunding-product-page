@@ -3,27 +3,28 @@ import Pledge from "../pages/Pledge";
 
 export default function About() {
   return (
-    <div className="row" style={{ justifyContent: "center" }}>
+    <div className="row">
       <div className="container">
-        <div className="content-about col-md-6 container">
-          <h4 className="about-header">About this project</h4>
-          <p className="about-text">
+      <div className="content-about col-md-6 container">
+          <h4 className="about-header container">About this project</h4>
+          <p className="about-text container">
             The Mastercraft Bamboo Monitor Riser is a study and stylish platform
             that elevates your screen to a more comfortable viewing height.
             Placing your monitor at eye level has the potential to improve your
             posture and make you more comfortable while at work, helping you
             stay focused on the task at hand.
           </p>
-          <p className="about-text">
+          <p className="about-text container">
             Featuring artisan craftmanship, the smplicity of design creates
             extra desk space below your computer to allow notepads, pens, and
             USB sticks to be stored under the stand.
           </p>
 
           {/* Bamboo Stand */}
+          <div className="container">
           <div className="bamboo-stand">
-            <div className="row ">
-              <div className="col-6">
+          <div className="row container">
+              <div className="col-6 container">
                 <div>
                   <h4 className="bamboo-header">Bamboo Stand</h4>
                 </div>
@@ -33,7 +34,7 @@ export default function About() {
               </div>
             </div>
             <div>
-              <p className="about-text">
+              <p className="about-text container">
                 You get an ergonomic stand made of natural bamboo. You've helped
                 us launch our promotional campaign, and you'lll be added to a
                 special Backer member list.
@@ -56,13 +57,15 @@ export default function About() {
                   Select Reward
                 </button>
                 <Pledge />
-                {/* Black Edition Stand */}
               </div>
             </div>
           </div>
+          </div>          
+          {/* Black Edition Stand */}
+          <div className="container">
           <div className="bamboo-stand">
-            <div className="row">
-              <div className="col-6">
+            <div className="row container">
+              <div className="col-6 container">
                 <div>
                   <h4 className="bamboo-header">Black Edition Stand</h4>
                 </div>
@@ -72,32 +75,36 @@ export default function About() {
               </div>
             </div>
             <div>
-              <p className="about-text">
+              <p className="about-text container">
                 You get an ergonomic stand made of natural bamboo. You'll be
                 added to our Backer member list. Shipping is included.
               </p>
             </div>
             <div className="row container">
-              <div className="col-6">
+              <div className="col-6 container">
                 <h2 className="bamboo-header">
                   64<span className="span-p-text">left</span>
                 </h2>
               </div>
               <div className="col-6" style={{ textAlign: "right" }}>
-                <button type="button" className="btn btn-success" data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                <button
+                  type="button"
+                  className="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
                 >
                   Select Reward
                 </button>
                 <Pledge />
-
               </div>
             </div>
           </div>
+          </div>
           {/* Mahogany special edition */}
+          <div className="container">
           <div className="bamboo-stand">
-            <div className="row">
-              <div className="col-6">
+            <div className="row container">
+              <div className="col-6 container">
                 <div>
                   <h4 className="bamboo-header">Mahogany Special Edition</h4>
                 </div>
@@ -107,14 +114,14 @@ export default function About() {
               </div>
             </div>
             <div>
-              <p className="about-text">
+              <p className="about-text container">
                 You get two Special Edition Mahogany stands, a Backer T shirt,
                 and a personal thank you. You'll be added to our Backer member
                 list. Shipping is included.
               </p>
             </div>
             <div className="row container">
-              <div className="col-6">
+              <div className="col-6 container">
                 <h2 className="bamboo-header">
                   0<span className="span-p-text">left</span>
                 </h2>
@@ -126,7 +133,8 @@ export default function About() {
               </div>
             </div>
           </div>
-        </div>
+        </div>  
+        </div>  
       </div>
     </div>
   );

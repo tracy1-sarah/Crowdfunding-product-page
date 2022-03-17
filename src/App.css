@@ -21,30 +21,26 @@ body {
   height: 50vh;
 }
 
-.navbar{
-  width:100%;
+.navbar {
+  width: 100%;
   color: #ffffff;
-  padding-top: 0px;
-}
-
-.nav .logo {
-  width: 80px;
-  height: 20px;
+  /* padding-top: 0px; */
   margin: auto;
 }
 
 ul li {
   text-decoration: none;
   display: inline-block;
-  margin: 50px;
+  margin: 25px;
   cursor: pointer;
 }
 
+.logo {
+  margin: 25px;
+}
+
 .content {
-  justify-content: center;
-  overflow: auto;
   min-height: 250px;
-  border: 1px solid hsl(0, 0%, 100%);
   background: hsl(0, 0%, 100%);
   padding: 50px;
   border-radius: 10px;
@@ -64,9 +60,15 @@ ul li {
   text-align: center;
 }
 
+.p-text1 {
+  font-size: 14px;
+  color: hsl(0, 0%, 48%);
+  text-align: center;
+}
+
 .btn {
   border-radius: 25px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   cursor: pointer;
 }
 
@@ -77,10 +79,7 @@ ul li {
 
 /* statistics */
 .content-statistics {
-  justify-content: center;
-  overflow: auto;
   min-height: 200px;
-  border: 1px solid hsl(0, 0%, 100%);
   background: hsl(0, 0%, 100%);
   border-radius: 10px;
   position: relative;
@@ -99,13 +98,11 @@ ul li {
   margin-top: 3rem;
 }
 
-
 /* About */
 .content-about {
   justify-content: center;
   overflow: auto;
   min-height: 150px;
-  border: 1px solid hsl(0, 0%, 100%);
   background: hsl(0, 0%, 100%);
   border-radius: 10px;
   position: relative;
@@ -138,7 +135,7 @@ ul li {
 .bamboo-header {
   text-align: left;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 40px;
 }
 
@@ -153,8 +150,20 @@ ul li {
   font-size: 14px;
   color: hsl(0, 0%, 48%);
   text-align: center;
-  padding:0.5rem;
+  padding: 0.5rem;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: left;
+}
 
-/* Black Edition */
+/* BackProject Open Modal */
+.Backproject {
+  justify-content: center;
+  overflow: auto;
+  min-height: 150px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  position: relative;
+}
