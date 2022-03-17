@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Commissioner&family=Montserrat&family=Roboto&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,31 +8,35 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Commissioner", sans-serif;
   overflow-x: hidden;
   margin: 0;
   background-color: #f7f7f7f7;
 }
 
 .hero-desktop {
-  position: relative;
   background-image: url(./assets/images/image-hero-desktop.jpg);
   background-position: center;
   background-repeat: no-repeat;
   height: 50vh;
-  display: flex;
-  justify-content: center;
 }
 
-.nav {
+.navbar{
+  width:100%;
   color: #ffffff;
-  position: fixed;
-  right: 0;
+  padding-top: 0px;
 }
+
+.nav .logo {
+  width: 80px;
+  height: 20px;
+  margin: auto;
+}
+
 ul li {
   text-decoration: none;
   display: inline-block;
-  margin: 45px;
+  margin: 50px;
   cursor: pointer;
 }
 
@@ -49,30 +53,30 @@ ul li {
 }
 
 /* Mastercraft */
- .header{
-   text-align: center;
-   font-weight: bold;
- }
+.header {
+  text-align: center;
+  font-weight: bold;
+}
 
- .p-text{
-   font-size: 14px;
-   color: hsl(0, 0%, 48%);
-   text-align: center;
- }
+.p-text {
+  font-size: 14px;
+  color: hsl(0, 0%, 48%);
+  text-align: center;
+}
 
- .btn{
-   border-radius: 25px;
-   margin-top: 2rem;
- }
+.btn {
+  border-radius: 25px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
 
- 
-.img-bookmark{
+.img-bookmark {
   height: auto;
   width: 35px;
 }
 
 /* statistics */
- .content-statistics{
+.content-statistics {
   justify-content: center;
   overflow: auto;
   min-height: 200px;
@@ -81,36 +85,23 @@ ul li {
   border-radius: 10px;
   position: relative;
   top: 10rem;
- }
+}
 
- .statistics-header{
+.statistics-header {
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
+}
 
- }
-
- .stats-header{
+.stats-header {
   text-align: center;
   font-weight: bold;
   margin-top: 3rem;
-
 }
 
-.stats-header1{
-  text-align: left;
-  font-weight: bold;
-  padding-top: 3rem;
-}
-
-.p-text1{
-  font-size: 14px;
-  color: hsl(0, 0%, 48%);
-  text-align: left;
-}
 
 /* About */
-.content-about{
+.content-about {
   justify-content: center;
   overflow: auto;
   min-height: 150px;
@@ -119,17 +110,16 @@ ul li {
   border-radius: 10px;
   position: relative;
   top: 12rem;
-
 }
 
-.about-header{
+.about-header {
   text-align: left;
   font-weight: bold;
   font-size: 20px;
   margin-top: 40px;
 }
 
-.about-text{
+.about-text {
   text-align: left;
   font-size: 14px;
   color: hsl(0, 0%, 48%);
@@ -137,29 +127,34 @@ ul li {
 }
 
 /* bamboo stand */
-.bamboo-stand{
-  border: 1px solid hsl(0, 0%, 48%) ;
+.bamboo-stand {
+  border: 1px solid hsl(0, 0%, 48%);
   border-radius: 10px;
   margin-top: 25px;
   min-height: 200px;
   padding: 1rem;
 }
 
-.bamboo-header{
+.bamboo-header {
   text-align: left;
   font-weight: bold;
   font-size: 20px;
   margin-top: 40px;
-
 }
 
-.bamboo-text{
+.bamboo-text {
   font-size: 16px;
   margin-top: 40px;
   text-align: right;
   color: hsl(176, 50%, 47%);
-
 }
 
-/* Black Edition */
+.span-p-text {
+  font-size: 14px;
+  color: hsl(0, 0%, 48%);
+  text-align: center;
+  padding:0.5rem;
+}
 
+
+/* Black Edition */

@@ -1,4 +1,5 @@
 import React from "react";
+import Pledge from "../pages/Pledge";
 
 export default function About() {
   return (
@@ -19,9 +20,9 @@ export default function About() {
             USB sticks to be stored under the stand.
           </p>
 
-          {/* Bamboo Edition */}
+          {/* Bamboo Stand */}
           <div className="bamboo-stand">
-            <div className="row">
+            <div className="row ">
               <div className="col-6">
                 <div>
                   <h4 className="bamboo-header">Bamboo Stand</h4>
@@ -38,14 +39,23 @@ export default function About() {
                 special Backer member list.
               </p>
             </div>
-            <div className="row">
+            <div className="row container">
               <div className="col-6">
-                <h2 className="bamboo-header">101</h2>
+                <h2 className="bamboo-header">
+                  101<span className="span-p-text">left</span>
+                </h2>
               </div>
-              <div className="col-6">
+              <div
+                className="col-6"
+                style={{ textAlign: "right" }}
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                data-bs-whatever="@mdo"
+              >
                 <button type="button" className="btn btn-success">
                   Select Reward
                 </button>
+                <Pledge />
                 {/* Black Edition Stand */}
               </div>
             </div>
@@ -54,7 +64,7 @@ export default function About() {
             <div className="row">
               <div className="col-6">
                 <div>
-                  <h4 className="bamboo-header">Bamboo Stand</h4>
+                  <h4 className="bamboo-header">Black Edition Stand</h4>
                 </div>
               </div>
               <div className="col-6">
@@ -63,18 +73,24 @@ export default function About() {
             </div>
             <div>
               <p className="about-text">
-                You get an ergonomic stand made of natural bamboo. You'lllbe added to our Backer 
-                member list. Shipping is included.
+                You get an ergonomic stand made of natural bamboo. You'll be
+                added to our Backer member list. Shipping is included.
               </p>
             </div>
-            <div className="row">
+            <div className="row container">
               <div className="col-6">
-                <h2 className="bamboo-header">64</h2>
+                <h2 className="bamboo-header">
+                  64<span className="span-p-text">left</span>
+                </h2>
               </div>
-              <div className="col-6">
-                <button type="button" className="btn btn-success">
+              <div className="col-6" style={{ textAlign: "right" }}>
+                <button type="button" className="btn btn-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                >
                   Select Reward
                 </button>
+                <Pledge />
+
               </div>
             </div>
           </div>
@@ -83,7 +99,7 @@ export default function About() {
             <div className="row">
               <div className="col-6">
                 <div>
-                  <h4 className="bamboo-header">Bamboo Stand</h4>
+                  <h4 className="bamboo-header">Mahogany Special Edition</h4>
                 </div>
               </div>
               <div className="col-6">
@@ -92,16 +108,18 @@ export default function About() {
             </div>
             <div>
               <p className="about-text">
-                You get two Special Edition Mahogany stands, a Backer T shirt, and a 
-                personal thank you. You'll be added to our Backer member list. Shipping is included.
-
+                You get two Special Edition Mahogany stands, a Backer T shirt,
+                and a personal thank you. You'll be added to our Backer member
+                list. Shipping is included.
               </p>
             </div>
-            <div className="row">
+            <div className="row container">
               <div className="col-6">
-                <h2 className="bamboo-header">0</h2>
+                <h2 className="bamboo-header">
+                  0<span className="span-p-text">left</span>
+                </h2>
               </div>
-              <div className="col-6">
+              <div className="col-6" style={{ textAlign: "right" }}>
                 <button type="button" className="btn btn-secondary">
                   Out of stock
                 </button>
